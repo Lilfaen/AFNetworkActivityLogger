@@ -21,7 +21,8 @@
 // THE SOFTWARE.
 
 #import "AFNetworkActivityLogger.h"
-#import <AFNetworking/AFURLSessionManager.h>
+@import AFNetworking;
+//#import <AFNetworking/AFURLSessionManager.h>
 #import "AFNetworkActivityConsoleLogger.h"
 #import <objc/runtime.h>
 
